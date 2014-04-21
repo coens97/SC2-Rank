@@ -34,7 +34,7 @@
 		557E37D71904841C0034B421 /* StatusItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 557E37C41904841C0034B421 /* StatusItemView.m */; };
 		557E37D81904841C0034B421 /* terran.png in Resources */ = {isa = PBXBuildFile; fileRef = 557E37C51904841C0034B421 /* terran.png */; };
 		557E37D91904841C0034B421 /* zerg.png in Resources */ = {isa = PBXBuildFile; fileRef = 557E37C61904841C0034B421 /* zerg.png */; };
-		557E37DC1904848A0034B421 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 557E37DA1904848A0034B421 /* MainMenu.xib */; };
+		55BFF3EA19052075001F2D5E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55BFF3E819052075001F2D5E /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,7 +90,7 @@
 		557E37C41904841C0034B421 /* StatusItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItemView.m; sourceTree = "<group>"; };
 		557E37C51904841C0034B421 /* terran.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terran.png; sourceTree = "<group>"; };
 		557E37C61904841C0034B421 /* zerg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zerg.png; sourceTree = "<group>"; };
-		557E37DB1904848A0034B421 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "../../Starcraft 2 Rank/SC2 Rank/en.lproj/MainMenu.xib"; sourceTree = "<group>"; };
+		55BFF3E919052075001F2D5E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,8 +194,8 @@
 		557E37DE19048B080034B421 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				55BFF3E819052075001F2D5E /* MainMenu.xib */,
 				557E37B21904841C0034B421 /* Panel.xib */,
-				557E37DA1904848A0034B421 /* MainMenu.xib */,
 				557E37BC1904841C0034B421 /* SettingsController.xib */,
 			);
 			name = View;
@@ -338,7 +338,7 @@
 				557E37911904838E0034B421 /* Images.xcassets in Resources */,
 				557E37D41904841C0034B421 /* Status@2x.png in Resources */,
 				557E37D31904841C0034B421 /* Status.png in Resources */,
-				557E37DC1904848A0034B421 /* MainMenu.xib in Resources */,
+				55BFF3EA19052075001F2D5E /* MainMenu.xib in Resources */,
 				557E37D91904841C0034B421 /* zerg.png in Resources */,
 				557E37C81904841C0034B421 /* leages.png in Resources */,
 				557E37891904838E0034B421 /* Credits.rtf in Resources */,
@@ -414,10 +414,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		557E37DA1904848A0034B421 /* MainMenu.xib */ = {
+		55BFF3E819052075001F2D5E /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				557E37DB1904848A0034B421 /* en */,
+				55BFF3E919052075001F2D5E /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";

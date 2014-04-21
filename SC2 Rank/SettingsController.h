@@ -13,6 +13,8 @@
 - (id)initWithDelegate:(NSObject*)delegate;
 
 @property (nonatomic, retain) IBOutlet NSTextField *btUrl;
+@property (nonatomic, retain) IBOutlet NSButton *checkStartup;
 
 - (IBAction) pressedSave:(id)sender;
+- (IBAction)toggleLaunchAtStartup:(id)sender;
 @end
