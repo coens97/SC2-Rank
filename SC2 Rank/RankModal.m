@@ -44,7 +44,15 @@
     
     NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern: pattern options:0 error:nil];
     NSArray* matches = [regex matchesInString:text options:0 range: searchedRange];
-    NSString* bonusPool = [text substringWithRange:[[matches objectAtIndex:0]rangeAtIndex:1]];
+    NSString* bonusPool;
+    if([matches count] == 1)
+    {
+        bonusPool = [text substringWithRange:[[matches objectAtIndex:0]rangeAtIndex:1]];
+    }
+    else
+    {
+        bonusPool = @"0";
+    }
     NSLog(@"Bonus pool: %@", bonusPool);
     //Get leage
     pattern = @"<title>.*?\\s([A-Z][a-z]+)\\s-";
